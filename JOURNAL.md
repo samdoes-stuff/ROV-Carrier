@@ -26,3 +26,5 @@ UFS are faster than emmc and can pack a lot of storage in small price. Hard thin
 Danger:  It is too good true be true. I am doubting that Radxa CM4 can do lot of things at once. I have to do some research and update the journal. 
 
 Time to fix my SSD portion and check the 40 pin gpio
+
+decision changed again rooting for CM5. Better at eveything.
