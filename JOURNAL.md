@@ -36,3 +36,6 @@ Plan changed again. I found out that Radxa is copy catting a chinese company and
 I found some more great option than RADXA CM5 which is SOM RK3399V2 from "Friendly Elec"  
 
 It is much cheaper (87$) and meets most of my needs. I will use this hopefully I don't bring in any big change. 
+
+
+Ahh may be I won't because I need the 40 pin gpio support for my carrier. eDP is supported in Radxa Cm5 but not used. I will definitely use the eDP let's see.
