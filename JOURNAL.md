@@ -28,3 +28,11 @@ Danger:  It is too good true be true. I am doubting that Radxa CM4 can do lot of
 Time to fix my SSD portion and check the 40 pin gpio
 
 decision changed again rooting for CM5. Better at eveything.
+
+
+28/03/2026 
+
+Plan changed again. I found out that Radxa is copy catting a chinese company and selling their module in a higher price. 
+I found some more great option than RADXA CM5 which is SOM RK3399V2 from "Friendly Elec"  
+
+It is much cheaper (87$) and meets most of my needs. I will use this hopefully I don't bring in any big change. 
