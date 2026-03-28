@@ -38,4 +38,8 @@ I found some more great option than RADXA CM5 which is SOM RK3399V2 from "Friend
 It is much cheaper (87$) and meets most of my needs. I will use this hopefully I don't bring in any big change. 
 
 
-Ahh may be I won't because I need the 40 pin gpio support for my carrier. eDP is supported in Radxa Cm5 but not used. I will definitely use the eDP let's see.
+Ahh may be I won't because I need the 40 pin gpio support for my carrier. eDP is supported in Radxa Cm5 but not used. I will definitely use the eDP let's see. 
+
+what should I do? When I am focusing more on expandibility, I am losing some functions. Main purpose is to make a carrier board but when I am making something why don't I make this for my cyberdeck. Same thing but needs more time from me.  
+
+Should I move on or I restart everything. Ohh boy!!!!
