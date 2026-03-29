@@ -43,3 +43,65 @@ Ahh may be I won't because I need the 40 pin gpio support for my carrier. eDP is
 what should I do? When I am focusing more on expandibility, I am losing some functions. Main purpose is to make a carrier board but when I am making something why don't I make this for my cyberdeck. Same thing but needs more time from me.  
 
 Should I move on or I restart everything. Ohh boy!!!!
+
+29/03/2026 
+
+Pin config for my understanding 
+
+First What is already equipped 
+
+PCIE-E key  
+GPIO4_A1
+GPIO4_A0
+GPIO4_A2
+GPIO3_A6
+GPIO1_A3
+GPIO1_A2
+GPIO4_C3
+GPIO1_A0
+GPIO1_A1
+GPIO2_C3
+GPIO2_C0
+GPIO0_C5
+GPIO2_B7
+GPIO0_C4
+GPIO2_A6
+GPIO2_A7
+GPIO2_B0
+GPIO2_B1
+GPIO2_B2
+GPIO0_B2
+GPIO2_B3
+
+Type-C 
+I2C6_SDA_M0
+I2C6_SCL_M0
+GPIO0_D3
+GPIO1_D2
+
+Type-C 2
+GPIO3_B4
+GPIO0_D5
+I2C7_SDA_M0
+I2C7_SCL_M0
+
+PCIE3.0 M key 
+GPIO4_B4
+GPIO4_B5
+GPIO4_B6
+
+eDP
+GPIO3_A7
+GPIO3_B7
+
+SD Card 
+GPIO0_A4
+
+Audio (Probably Need to change(I2S) the interface but GPIO remains)
+GPIO1_A7
+GPIO1_C4
+I2C6_SDA_M0
+I2C6_SCL_M0
+
+For navigator I need 5 pairs of RX & TX signal. 
+
