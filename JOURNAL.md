@@ -1,5 +1,5 @@
 
-23/03/2026
+# 23/03/2026
 
 After working for sometimes, I realized I need to journal everything or else I will forget. 
 
@@ -30,7 +30,7 @@ Time to fix my SSD portion and check the 40 pin gpio
 decision changed again rooting for CM5. Better at eveything.
 
 
-28/03/2026 
+# 28/03/2026 
 
 Plan changed again. I found out that Radxa is copy catting a chinese company and selling their module in a higher price. 
 I found some more great option than RADXA CM5 which is SOM RK3399V2 from "Friendly Elec"  
@@ -44,91 +44,91 @@ what should I do? When I am focusing more on expandibility, I am losing some fun
 
 Should I move on or I restart everything. Ohh boy!!!!
 
-29/03/2026 
+# 29/03/2026 
 
 Pin config for my understanding 
 
 First What is already equipped 
 
-.PCIE-E key  
-.GPIO4_A1
-.GPIO4_A0
-.GPIO4_A2
-.GPIO3_A6
-.GPIO1_A3
-.GPIO1_A2
-.GPIO4_C3
-.GPIO1_A0
-.GPIO1_A1
-.GPIO2_C3
-.GPIO2_C0
-.GPIO0_C5
-.GPIO2_B7
-.GPIO0_C4
-.GPIO2_A6
-.GPIO2_A7
-.GPIO2_B0
-.GPIO2_B1
-.GPIO2_B2
-.GPIO0_B2
-.GPIO2_B3
+## PCIE-E key  
+1. GPIO4_A1
+2. GPIO4_A0
+3. GPIO4_A2
+4. GPIO3_A6
+5. GPIO1_A3
+6. GPIO1_A2
+7. GPIO4_C3
+8. GPIO1_A0
+9. GPIO1_A1
+10. GPIO2_C3
+11. GPIO2_C0
+12. GPIO0_C5
+13. GPIO2_B7
+14. GPIO0_C4
+15. GPIO2_A6
+16. GPIO2_A7
+17. GPIO2_B0
+18. GPIO2_B1
+19. GPIO2_B2
+20. GPIO0_B2
+21. GPIO2_B3
 
-.Type-C 
-.I2C6_SDA_M0
-.I2C6_SCL_M0
-.GPIO0_D3
-.GPIO1_D2
+## Type-C 
+1. I2C6_SDA_M0
+2. I2C6_SCL_M0
+3. GPIO0_D3
+4. GPIO1_D2
 
-.Type-C 2
-.GPIO3_B4
-.GPIO0_D5
-.I2C7_SDA_M0
-.I2C7_SCL_M0
+## Type-C 2
+1. GPIO3_B4
+2. GPIO0_D5
+3. I2C7_SDA_M0
+4. I2C7_SCL_M0
 
-.PCIE3.0 M key 
-.GPIO4_B4
-.GPIO4_B5
-.GPIO4_B6
+## PCIE3.0 M key 
+1. GPIO4_B4
+2. GPIO4_B5
+3. GPIO4_B6
 
-.eDP
-.GPIO3_A7
-.GPIO3_B7
+## eDP
+1. GPIO3_A7
+2. GPIO3_B7
 
-.SD Card 
-.GPIO0_A4
+## SD Card 
+1. GPIO0_A4
 
-.Ext_USB2.0 
-.GPIO1_B0
+## Ext_USB2.0 
+1. GPIO1_B0
 
-.Audio (Probably Need to change(I2S) the interface but GPIO remains)
-.GPIO1_A7
-.GPIO1_C4
-.I2C6_SDA_M0
-.I2C6_SCL_M0
+## Audio (Probably Need to change(I2S) the interface but GPIO remains)
+1. GPIO1_A7
+2. GPIO1_C4
+3. I2C6_SDA_M0
+4. I2C6_SCL_M0
 
-.For navigator I need 4 pairs of RX & TX signal. 
-.TX1_RPI - GPIO1_B6 
-.RX1_RPI - GPIO1_B7
-.TX3_RPI - GPIO3_B5 
-.RX3_RPI - GPIO3_B6 
-.TX4_RPI - GPIO3_C0
-.RX4_RPI - GPIO3_C1
-.TX5_RPI - GPIO1_B5
-.RX5_RPI - GPIO1_B4
+## For navigator I need 4 pairs of RX & TX signal. 
+1. TX1_RPI - GPIO1_B6 
+2. RX1_RPI - GPIO1_B7
+3. TX3_RPI - GPIO3_B5 
+4. RX3_RPI - GPIO3_B6 
+5. TX4_RPI - GPIO3_C0
+6. RX4_RPI - GPIO3_C1
+7. TX5_RPI - GPIO1_B5
+8. RX5_RPI - GPIO1_B4
 
-.I need 4 pairs of SDA & SCL
-.SDA0
-.SCL0
-.SCL1
-.SDA1
-.SDA4
-.SCL4
-.SCL6
-.SDA6
+## I need 4 pairs of SDA & SCL
+1. SDA0
+2. SCL0
+3. SCL1
+4. SDA1
+5. SDA4
+6. SCL4
+7. SCL6
+8. SDA6
 
-.I need 5 SPI
-.SPI_CS1 - 
-.SPI_CS2 - 
-.SPI1_SCLK -  
-.SPI1_MISO -  
-.SPI1_MOSI - 
+## I need 5 SPI
+1. SPI_CS1 - 
+2. SPI_CS2 - 
+3. SPI1_SCLK -  
+4. SPI1_MISO -  
+5. SPI1_MOSI - 
