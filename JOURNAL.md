@@ -97,11 +97,38 @@ GPIO3_B7
 SD Card 
 GPIO0_A4
 
+Ext_USB2.0 
+GPIO1_B0
+
 Audio (Probably Need to change(I2S) the interface but GPIO remains)
 GPIO1_A7
 GPIO1_C4
 I2C6_SDA_M0
 I2C6_SCL_M0
 
-For navigator I need 5 pairs of RX & TX signal. 
+For navigator I need 4 pairs of RX & TX signal. 
+TX1_RPI - GPIO1_B6 
+RX1_RPI - GPIO1_B7
+TX3_RPI - GPIO3_B5 
+RX3_RPI - GPIO3_B6 
+TX4_RPI - GPIO3_C0
+RX4_RPI - GPIO3_C1
+TX5_RPI - GPIO1_B5
+RX5_RPI - GPIO1_B4
 
+I need 4 pairs of SDA & SCL
+SDA0
+SCL0
+SCL1
+SDA1
+SDA4
+SCL4
+SCL6
+SDA6
+
+I need 5 SPI
+SPI_CS1 - 
+SPI_CS2 - 
+SPI1_SCLK -  
+SPI1_MISO -  
+SPI1_MOSI - 
